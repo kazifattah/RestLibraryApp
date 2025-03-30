@@ -43,3 +43,8 @@ INSERT INTO borrow_record (borrow_date, return_date, library_member_id, book_id)
 ('2025-02-22', null, 2, 2),
 ('2025-03-16', null, 3, 3),
 ('2025-03-23', null, 4, 4);
+
+-- Insert into User table an admin account
+
+INSERT INTO `librarymanagement`.`my_user` (`password`, `role`, `username`) VALUES ('$2a$12$.hmYZimxMEEKs2z1.KLLo.uGvP1hxuQ4DByOhxu86Vyeiw3xGjK8C', 'ADMIN', 'admin');
+
